@@ -1,0 +1,86 @@
+.topSection
+{
+border-style:double;
+border-color: #0a0e20;
+display : flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+margin-right: 10cm;
+margin-left: 10cm;
+margin-top: 5cm;
+background-color: #b9f5e8;
+color:rgb(0, 20, 107)
+}
+body
+{
+    background-color: rgb(199, 228, 252);
+}
+h2
+{
+font-size: 225%;
+text-decoration: underline #03196B;
+}
+h3 
+{
+font-size: 150%;
+}
+#abc
+{
+border-style: solid;
+border-radius: 0.5cm;
+border-color:steelblue;
+padding-left: 1.2cm;
+}
+.games
+{
+    display : flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+}
+.game 
+{
+
+    position: relative;
+    margin-right : 2%;
+    margin-left : 15%;
+    margin-top : 10%;
+    flex-basis: 25%;
+}
+.game img
+{
+    padding:2cm;
+    border: rgb(0, 0, 0);
+    border-style : solid;
+    border-radius: 2cm;
+    background-color: rgb(210, 182, 226);
+}
+.intro
+{
+    margin-left : 35%
+}
+.game p
+{
+    top: 20%;
+    right: 47%;
+    position: absolute;
+    opacity: 0;
+}
+.game:hover p 
+{
+    opacity: 1;
+}
+.game:hover img
+{
+    opacity: 0.3;
+}
+.new4 
+{
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    border: 1px solid rgb(100, 98, 214); 
+}
+.footer 
+{
+    margin-left: 25cm;
+}
